@@ -1,0 +1,26 @@
+{
+  "name": "五子棋工坊",
+  "brief": "十五路棋盘双人五子棋对战，横竖斜连五即胜，支持重开与胜负提示。",
+  "work_ref": "WORKS-3598",
+  "entry": "src/main.js",
+  "status": "wip",
+  "files": [
+    {
+      "path": "src/engine.js",
+      "role": "游戏核心状态机：回合管理、落子校验、胜负判定"
+    },
+    {
+      "path": "src/board.js",
+      "role": "棋盘几何换算：格点坐标、像素映射与交点吸附"
+    },
+    {
+      "path": "src/ui.js",
+      "role": "渲染层：棋盘网格、星位、棋子与状态文字绘制"
+    },
+    {
+      "path": "src/main.js",
+      "role": "入口：Canvas 挂载、主循环驱动渲染、点击落子与重开交互"
+    }
+  ],
+  "generated_by": "proj_forge（AI 工程工坊）"
+}
